@@ -4,8 +4,8 @@ Un simple y veloz acortador de direcciones a 4 caracteres de Base36 utilizando R
 
 #Instalación
 
-git clone
-bundle install
+git clone<br>
+bundle install<br>
 rails s
 
 #Desarrollador
