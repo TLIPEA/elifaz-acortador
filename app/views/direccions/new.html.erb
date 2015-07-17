@@ -1,0 +1,47 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/direccions/new">Elifaz</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="/estaticas/acerca">Acerca de</a>
+                    </li>
+                    <li>
+                        <a href="/contacts">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+</nav>
+<p>
+<p>
+<div class="container">
+
+<header class="jumbotron hero-spacer">
+<%= form_for @direccion do |f| %>
+
+<% @direccion.errors.each do |attr, msg| %>
+	<%= msg %>
+<% end %>
+<%= image_tag("logo.png", :alt => "UPTM") %>
+<h2>Acortar direccion</h2>
+<div class="control-group">
+  <div class="controls">
+    <input id="direccion_inicial" name="direccion[inicial]" value="http://" class="input-xxlarge" type="text"><p>
+     <button id="singlebutton" name="coomit" class="btn btn-primary btn-large">Acortar direccion</button>
+  </div>
+</div>
+</p>
+<% end %>
+
+</header>
+	</p>

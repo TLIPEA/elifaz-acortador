@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  inicial: MyString
+  generada: MyString
+  clicks: 1
+
+two:
+  inicial: MyString
+  generada: MyString
+  clicks: 1

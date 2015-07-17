@@ -1,0 +1,9 @@
+<h1>Direcciones acortadas</h1>
+<% @direccions.each do |direccion| %>
+	<p>
+	<%= link_to direccion.generada, direccion_path(:id => direccion.generada) %> => <%= direccion.inicial %> 
+	<%= direccion.clicks %> 
+	</p>
+<% end %>
+
+<%= link_to "Acortar otra dirección", new_direccion_path %>
