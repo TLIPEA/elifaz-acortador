@@ -1,24 +1,30 @@
+#¿Qué es esto?
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+Un simple y veloz acortador de direcciones a 4 caracteres de Base36 utilizando Ruby on Rails.  
 
+#Instalación
 
-Welcome to your Rails project on Cloud9 IDE!
+git clone
+bundle install
+rails s
 
-To get started, just do the following:
+#Desarrollador
 
-1. Run the project with the "Run Project" button in the menu bar on top of the IDE.
-2. Preview your new app by clicking on the URL that appears in the Run panel below (https://elifaz-ggangix.c9.io/).
+Giuseppe Gangi (@ggangix)
+[Visita mi blog](http://www.giuseppegangi.com)
 
-Happy coding!
-The Cloud9 IDE team
+#Licencia
 
+   DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                   Version 2, December 2004
 
-## Support & Documentation
+Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
 
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+Everyone is permitted to copy and distribute verbatim or modified
+copies of this license document, and changing it is allowed as long
+as the name is changed.
+
+           DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+  TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+ 0. You just DO WHAT THE FUCK YOU WANT TO.
